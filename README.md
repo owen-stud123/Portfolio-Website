@@ -1,16 +1,61 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Portfolio Website
 
-Currently, two official plugins are available:
+A personal portfolio website built with React and Vite. It showcases projects, services, and contact information and uses Tailwind CSS for styling and Lucide icons.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech stack
+- React 19
+- Vite
+- Tailwind CSS
+- Lucide React icons
 
-## React Compiler
+Prerequisites
+- Node.js (recommended v16 or later)
+- npm (or yarn/pnpm)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Quick start (Windows PowerShell)
+1. Install dependencies
 
-## Expanding the ESLint configuration
+	 npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Run the dev server
+
+	 npm run dev
+
+	 Open http://localhost:5173 in your browser (Vite default)
+
+Build for production
+
+	npm run build
+
+Preview production build locally
+
+	npm run preview
+
+Linting
+
+	npm run lint
+
+Project structure (important files)
+
+- `index.html` — app entry HTML
+- `vite.config.js` — Vite config
+- `package.json` — scripts & dependencies
+- `src/` — React source
+	- `main.jsx`, `App.jsx` — app bootstrap and main component
+	- `assets/images/` — images used in the site
+	- `components/` — React components (Navbar, Hero, About, Services, Portfolio, Contact, Footer, IconGallery)
+- `public/` — static assets served as-is
+
+Notes
+- This project uses the scripts defined in `package.json`: `dev`, `build`, `preview`, and `lint`.
+- If you use a different package manager, replace `npm` with `yarn` or `pnpm`.
+
+Contributing
+- Open a PR or edit files and create issues for bugs or feature requests.
+
+License
+- No license file included. Add a `LICENSE` file if you want to specify one (MIT is a common choice).
+
+Contact
+- For questions or help, update this README or add an issue in the repo.
