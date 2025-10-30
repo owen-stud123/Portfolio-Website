@@ -10,28 +10,14 @@ const Services = () => {
     {
       icon: Smartphone,
       title: "Mobile Apps",
-      description: "Developing native and cross-platform mobile applications for iOS and Android."
+      description: "Developing native and cross-platform mobile applications."
     },
     {
       icon: Pencil,
       title: "Graphic Design",
       description: "Crafting beautiful visual identities, logos, and marketing materials for your brand."
     },
-    {
-      icon: Search,
-      title: "SEO Optimization",
-      description: "Improving your website's visibility and ranking on search engines to attract more visitors."
-    },
-    {
-      icon: ShoppingCart,
-      title: "E-Commerce",
-      description: "Building powerful online stores with secure payment systems and inventory management."
-    },
-    {
-      icon: TrendingUp,
-      title: "Digital Marketing",
-      description: "Creating effective marketing strategies to grow your online presence and reach."
-    }
+    
   ];
 
   return (

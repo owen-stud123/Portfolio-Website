@@ -16,7 +16,7 @@ const Portfolio = () => {
       category: "Web Development",
       image: card1,
       description: "Real-time patient monitoring system for healthcare facilities",
-      link: "https://github.com/owen-stud123/hospital_monitoring_group14.git"
+      link: "git@github.com:owen-stud123/ToDo-App.git"
     },
     {
       id: 2,
