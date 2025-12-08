@@ -1,10 +1,9 @@
-import { Github, Linkedin, Twitter, Heart } from "lucide-react";
+import { Github, Linkedin, Heart } from "lucide-react";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" }
+    { icon: Github, href: "https://github.com/owen-stud123", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/ganza-owen-44a205327", label: "LinkedIn" }
   ];
 
   return (
@@ -34,7 +33,9 @@ const Footer = () => {
               {socialLinks.map((social, index) => (
                 <a 
                   key={index}
-                  href={social.href} 
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-sky-600 transition"
                   aria-label={social.label}
                 >
@@ -47,7 +48,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400 flex items-center justify-center gap-1">
-            Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> © 2025 My Portfolio. All rights reserved.
+           By Ganza Owen
           </p>
         </div>
       </div>
